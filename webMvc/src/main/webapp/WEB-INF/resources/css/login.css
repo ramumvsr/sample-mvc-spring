@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('../fonts/varelaround-regular-webfont.woff2') format('woff2'),
+         url('../fonts/varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+body {
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #333333;
+    font-family: "varela_roundregular",sans-serif;
+}
+html {
+    font-size: 75%;
+}
+.account-wall-main {
+    display: none;
+    min-height: 350px;
+    width: 400px;
+}
+.logo-img {
+    display: block;
+    margin: 0 auto 30px;
+}
+.account-wall {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0 #cccccc;
+    margin-top: 20px;
+    padding: 19px;
+}
+.form-signin {
+    color: #333333;
+    font-family: "varela_roundregular",sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+.form-group {
+    margin-bottom: 0;
+}
+.form-signin .form-control {
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 34px;
+    line-height: 2rem;
+    padding: 5px;
+    position: relative;
+}
+.form-signin .input-group, .form-password .input-group{
+    margin-bottom: 10px;
+}
+.form-signin, .form-password {
+    color: #333333;
+    font-family: "varela_roundregular",sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.btn.btn-primary {
+    background: green none repeat scroll 0 0;
+    border: medium none #d32f2f;
+    color: white;
+    text-shadow: 0 1px 3px #d32f2f;
+}
+.btn {
+    border-radius: 4px;
+}
+.btn.btn-primary:hover {
+    background:green none repeat scroll 0 0;
+}
+.usernameError, .passwordError, .error_login{
+  color: #a94442;
+  margin-top: 5px;
+  font-size: 12px;
+}
+header {
+    
+    
+    background-color:white;
+    border: 1px solid gray;
+	border-radius: 5px;
+	margin: 10px 0px 0px 0px;
+	 
+	 
+}
+
+img
+{
+	 margin: 0px 0px 0px 60px;
+	  
+}
+
+footer{
+	    z-index: 10;
+position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: gray;
+ 
+  }
+  h4{
+	     font-family: -webkit-pictograph;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+  }
+
+.input-group-addon{
+color: #1084ff;}
