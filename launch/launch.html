@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <link rel="stylesheet" href="progress.css">
+    <script src="jquery.min.js"></script>
+    <script src="launch.js"></script>
+
+<script>
+        $(function () {
+            $('#submit').click(function() {
+                $("#progressLoader").show();
+                 window.location = $('#q').val();
+            });
+        });
+   </script>
+
+
+</head>
+<body>
+<input type="text" id="q" />
+<input type="button" id="submit" value="submit" />
+
+<div id="progressLoader" class="spinnerModal" style="display: none">
+    <div class="spinnerCenter">
+        <img alt="" src="ajax-loader.gif" />
+        <h3 style="font-size: 12px;text-transform: none;text-align: center;margin:10px;color: black">Opening webpage</h3>
+    </div>
+</div>
+
+</body>
+
+</html>
